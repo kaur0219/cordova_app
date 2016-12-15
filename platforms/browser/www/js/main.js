@@ -47,7 +47,7 @@ function force_init() {
 }
 
 function Score(d) {
-    let scores = document.getElementById('sc');
+    var scores = document.getElementById('sc');
     d.scores.forEach(function (s) {
         let table = document.createElement("table");
         let tr1 = document.createElement("tr");
@@ -192,3 +192,5 @@ document.getElementById("refresh").addEventListener("click", function () {
     st.innerHTML = "";
     force_init();
 });
+
+init();
