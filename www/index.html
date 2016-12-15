@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <meta charset="UTF-8">
+    <title>Cordova Template</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet"> </head>
+
+<body>
+    <header>
+        <center>
+            <h1>Sports Application</h1> </center>
+        <button id="Standings_btn">Standings</button>
+        <button id="Score_btn">Scores</button>
+    </header>
+    <main>
+        <button id="refresh">Refresh</button>
+        <div id="st-page" class="page ">
+            <h2>Standings</h2>
+            <div id="st"></div>
+        </div>
+        <div id="sc-page" class="page active">
+            <h2>Scores</h2>
+            <div id="sc"></div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

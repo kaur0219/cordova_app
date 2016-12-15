@@ -1,0 +1,79 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+header {
+    padding: 7px 0;
+    margin: 0;
+}
+
+main {
+    margin: auto;
+    background-color: darkseagreen;
+}
+
+.page {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+#standings {
+    display: none;
+    background-color: skyblue;
+}
+
+#scores {
+    display: block;
+    background-color: skyblue;
+    text-align: center;
+}
+
+#Standings_btn {
+    float: left;
+}
+
+#Score_btn {
+    float: right;
+}
+
+#refresh {
+    display: block;
+    color: blue;
+    z-index: 100;
+    min-width: 15%;
+    max-width: 15%;
+    margin: 0% 42.5% 1% 42.5%;
+    text-align: center;
+}
+
+table {
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+th {
+    
+    background-color: azure;
+}
+
+td {
+    width: 10%;
+    border: 1px solid black;
+}
+
+.icon {
+    width: 45px;
+    display: inline-block;
+}
